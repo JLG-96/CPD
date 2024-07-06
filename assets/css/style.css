@@ -23,6 +23,10 @@ header {
     background-color: lightpink;
 }
 
+h1 {
+    font-family: 'Anton SC', sans-serif;
+}
+
 /* Main */
 main {
     background-color: lightblue;

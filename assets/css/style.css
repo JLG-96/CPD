@@ -16,12 +16,14 @@ body {
 
 /* Header */
 header {
-    background-color: red
+    background-color: red;
 }
 
 /* Main */ 
 main {
     background-color: blue;
+    /* Make main element take up any left over space */ 
+    flex: 1 0 auto;
 }
 
 /* Footer */

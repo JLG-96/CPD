@@ -33,6 +33,22 @@ header a {
 
 h1 {
     font-family: 'Anton SC', sans-serif;
+    letter-spacing: 2px;
+}
+
+#menu {
+    list-style-type: none;
+    font-size: 105%;
+    letter-spacing: 3px;
+    margin-bottom: 0.5rem;
+}
+
+#menu > li {
+    margin-bottom: 1rem;
+}
+
+.live {
+    border-bottom: 3px solid #ff2728;
 }
 
 /* Main */

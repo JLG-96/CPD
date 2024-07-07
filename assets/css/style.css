@@ -39,6 +39,12 @@ h1 {
     letter-spacing: 2px;
 }
 
+h2, h3 {
+    font-family: 'Wittgenstein', serif;
+    text-transform: uppercase;
+    color: #000000;
+}
+
 #menu {
     list-style-type: none;
     font-size: 105%;
@@ -89,7 +95,7 @@ nav {
 main {
     /* Make main element take up any left over space */
     flex: 1 0 auto;
-    margin-top: 91px;
+    margin-top: 90px;
 }
 
 /* squad image background */
@@ -97,6 +103,19 @@ main {
     height: 600px;
     width: 100%;
     background: url("../images/cpd-squad.jpg") no-repeat center center/cover;
+    position: relative;
+}
+
+#squad-text {
+    background-color: rgba(249, 246, 238, 0.5);
+    font-size: 120%;
+    position: absolute;
+    bottom: 50px;
+    left: 10px;
+    letter-spacing: 2.5px;
+    width:80%;
+    min-height: 100px;
+    padding-left: 15px;
 }
 
 /* Footer */
@@ -135,6 +154,11 @@ main {
 
     .dropdown-box-label {
         display: none;
+    }
+
+    #squad-text {
+        width: 400px;
+        left: 100px;
     }
 }
 

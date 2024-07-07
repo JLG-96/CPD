@@ -26,6 +26,7 @@ header {
     padding: 0.5rem 0.5rem;
     display: flex;
     justify-content: space-between;
+    align-items: flex-end;
 }
 
 header a {
@@ -42,12 +43,11 @@ h1 {
     list-style-type: none;
     font-size: 105%;
     letter-spacing: 3px;
-    
     margin-top: 0.5rem;
 }
 
 #menu>li {
-    margin-bottom: 1rem;
+    margin-bottom: 0.2rem;
 }
 
 .live {
@@ -65,7 +65,7 @@ nav {
     top: 100%;
 }
 
-/* dropdown toggle */ 
+/* dropdown toggle */
 #dropdown-box:checked~nav {
     display: block;
 }
@@ -111,18 +111,19 @@ main {
 
 /* media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
-    /* Header */ 
+
+    /* Header */
     nav {
         display: block;
         position: relative;
-        width: fit-content;        
+        width: fit-content;
     }
 
     #menu {
         display: flex;
     }
 
-    #menu > li {
+    #menu>li {
         padding-left: 2rem;
     }
 
@@ -133,8 +134,8 @@ main {
 
 /* laptops and larger (992px and up) */
 @media screen and (min-width: 992px) {
-   #menu a:hover {
-    border-bottom: 3px solid #ffffff;
+    #menu a:hover {
+        border-bottom: 3px solid #ffffff;
 
     }
 }

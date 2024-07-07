@@ -69,6 +69,15 @@ nav {
     display: block;
 }
 
+#dropdown-box {
+    display: none;
+}
+
+.dropdwon-box-label {
+    font-size: 2rem;
+    color: #ff2728;
+}
+
 /* Main */
 main {
     background-color: lightblue;

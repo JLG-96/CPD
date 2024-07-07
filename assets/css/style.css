@@ -98,7 +98,7 @@ footer {
     background-color: lightgreen;
 }
 
-/* media query: tablets and larger (768px and up */
+/* media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
     /* Header */ 
     nav {
@@ -117,5 +117,13 @@ footer {
 
     .dropdwon-box-label {
         display: none;
+    }
+}
+
+/* laptops and larger (992px and up) */
+@media screen and (min-width: 992px) {
+   #menu a:hover {
+    border-bottom: 3px solid #ffffff;
+
     }
 }

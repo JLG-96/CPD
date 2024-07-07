@@ -74,7 +74,7 @@ nav {
     display: none;
 }
 
-.dropdwon-box-label {
+.dropdown-box-label {
     font-size: 2rem;
     color: #ff2728;
 }
@@ -94,8 +94,19 @@ main {
 }
 
 /* Footer */
-footer {
-    background-color: lightgreen;
+#social-media {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+    background-color: #ff2728;
+    list-style-type: none;
+}
+
+.icon-social {
+    color: #000000;
+    font-size: 200%;
+    padding: 20%;
 }
 
 /* media query: tablets and larger (768px and up) */
@@ -115,7 +126,7 @@ footer {
         padding-left: 2rem;
     }
 
-    .dropdwon-box-label {
+    .dropdown-box-label {
         display: none;
     }
 }

@@ -118,6 +118,30 @@ main {
     padding-left: 15px;
 }
 
+/* the club section */ 
+#the-club {
+    width: 90%;
+    margin: 20px auto;
+}
+
+#the-club h2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+#about, #fixtures, #results, #standings {
+    margin-bottom: 20px;
+}
+
+hr {
+    border-top: 5px solid #000000;
+    margin: 5px 0;
+}
+ul {
+    list-style-type: none;    
+}
 /* table for results and standings */
 .center{
     margin-left: auto;

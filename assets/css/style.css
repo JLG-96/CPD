@@ -83,6 +83,7 @@ main {
     background-color: lightblue;
     /* Make main element take up any left over space */
     flex: 1 0 auto;
+    margin-top: 64.33px;
 }
 
 /* Footer */

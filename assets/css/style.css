@@ -118,6 +118,26 @@ main {
     padding-left: 15px;
 }
 
+/* table for results and standings */
+.center{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+
+}
+
+table {
+    font-family: 'roboto' serif;
+    border-collapse: collapse;
+    width: 50%;
+}
+
+td, th {
+    border: 1px solid #000000;
+    text-align: center;
+    padding: 10px;
+}
+
 /* Footer */
 #social-media {
     text-align: center;

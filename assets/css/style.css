@@ -42,7 +42,8 @@ h1 {
     list-style-type: none;
     font-size: 105%;
     letter-spacing: 3px;
-    margin-bottom: 0.5rem;
+    
+    margin-top: 0.5rem;
 }
 
 #menu>li {
@@ -78,12 +79,18 @@ nav {
     color: #ff2728;
 }
 
+#logo {
+    font-size: 250%;
+    line-height: 75px;
+    margin: 0 0.5rem;
+}
+
 /* Main */
 main {
     background-color: lightblue;
     /* Make main element take up any left over space */
     flex: 1 0 auto;
-    margin-top: 64.33px;
+    margin-top: 91px;
 }
 
 /* Footer */

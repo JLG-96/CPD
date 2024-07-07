@@ -20,7 +20,7 @@ body {
 
 /* Header */
 header {
-    background-color:#000000;
+    background-color: #000000;
     position: fixed;
     width: 100%;
     padding: 0.5rem 0.5rem;
@@ -43,12 +43,22 @@ h1 {
     margin-bottom: 0.5rem;
 }
 
-#menu > li {
+#menu>li {
     margin-bottom: 1rem;
 }
 
 .live {
     border-bottom: 3px solid #ff2728;
+}
+
+/* dropdown option for navbar */
+nav {
+    position: absolute;
+    background-color: #000000;
+    width: 100%;
+    left: 0%;
+    padding: 0 0.5rem;
+    display: none;
 }
 
 /* Main */

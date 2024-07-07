@@ -24,6 +24,8 @@ header {
     position: fixed;
     width: 100%;
     padding: 0.5rem 0.5rem;
+    display: flex;
+    justify-content: space-between;
 }
 
 header a {
@@ -59,6 +61,11 @@ nav {
     left: 0%;
     padding: 0 0.5rem;
     display: none;
+}
+
+/* dropdown toggle */ 
+#dropdown-box:checked~nav {
+    display: block;
 }
 
 /* Main */

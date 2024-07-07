@@ -20,7 +20,15 @@ body {
 
 /* Header */
 header {
-    background-color: lightpink;
+    background-color:#000000;
+    position: fixed;
+    width: 100%;
+    padding: 0.5rem 0.5rem;
+}
+
+header a {
+    text-decoration: none;
+    color: #ff2728;
 }
 
 h1 {

@@ -61,6 +61,7 @@ nav {
     left: 0%;
     padding: 0 0.5rem;
     display: none;
+    top: 100%;
 }
 
 /* dropdown toggle */ 

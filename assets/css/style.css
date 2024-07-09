@@ -39,10 +39,11 @@ h1 {
     letter-spacing: 2px;
 }
 
-h2, h3 {
+h2,
+h3 {
     font-family: 'Wittgenstein', serif;
     text-transform: uppercase;
-    color: #000000;
+    color: #010101;
 }
 
 #menu {
@@ -107,18 +108,18 @@ main {
 }
 
 #squad-text {
-    background-color: rgba(249, 246, 238, 0.5);
+    background-color: rgba(167, 123, 3, 0.9);
     font-size: 120%;
     position: absolute;
     bottom: 50px;
     left: 10px;
     letter-spacing: 2.5px;
-    width:80%;
+    width: 80%;
     min-height: 100px;
     padding-left: 15px;
 }
 
-/* the club section */ 
+/* the club section */
 #the-club {
     width: 90%;
     margin: 20px auto;
@@ -131,7 +132,10 @@ main {
     text-decoration: underline;
 }
 
-#about, #fixtures, #results, #standings {
+#about,
+#fixtures,
+#results,
+#standings {
     margin-bottom: 20px;
 }
 
@@ -139,11 +143,13 @@ hr {
     border-top: 5px solid #000000;
     margin: 5px 0;
 }
+
 ul {
-    list-style-type: none;    
+    list-style-type: none;
 }
+
 /* table for results and standings */
-.center{
+.center {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 40px;
@@ -151,12 +157,13 @@ ul {
 }
 
 table {
-    font-family: 'roboto' serif;
+    font-family: 'roboto'serif;
     border-collapse: collapse;
     width: 50%;
 }
 
-td, th {
+td,
+th {
     border: 1px solid #000000;
     text-align: center;
     padding: 10px;

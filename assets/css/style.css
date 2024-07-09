@@ -97,6 +97,7 @@ main {
     /* Make main element take up any left over space */
     flex: 1 0 auto;
     margin-top: 90px;
+    background-color: #000000;
 }
 
 /* squad image background */
@@ -119,7 +120,8 @@ main {
     padding-left: 15px;
 }
 
-/* the club section */
+/* about the club section */
+
 #the-club {
     width: 90%;
     margin: 20px auto;
@@ -167,6 +169,21 @@ th {
     border: 1px solid #000000;
     text-align: center;
     padding: 10px;
+}
+
+#badge-bg {
+    background: url("../images/cpd-badge.jpg") no-repeat top center/cover;
+    height: 90vw;
+    width: 90vw;
+    border-radius: 50%;
+    max-width: 200px;
+    max-height: 200px;
+}
+
+#badge-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* Footer */

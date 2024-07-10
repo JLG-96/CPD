@@ -41,9 +41,9 @@ header h1, h6 {
     height: 52px;
 }
 
-h2,
-h3 {
-    font-family: 'Wittgenstein', serif;
+h2 {
+    font-family: 'roboto', sans-serif;
+    letter-spacing: 5px;
     text-transform: uppercase;
     color: #ffffff;
 }
@@ -61,6 +61,14 @@ h3 {
 
 .live {
     border-bottom: 3px solid #ff2728;
+}
+
+.heading1 {
+    font-size: 110%;
+}
+
+.heading2 {
+    font-size: 40%;
 }
 
 /* dropdown option for navbar */
@@ -113,18 +121,6 @@ main {
     position: relative;
 }
 
-#squad-text {
-    background-color: rgba(219, 4, 40, 50%);
-    font-size: 120%;
-    position: absolute;
-    bottom: 50px;
-    left: 10px;
-    letter-spacing: 2.5px;
-    width: 80%;
-    min-height: 100px;
-    padding-left: 15px;
-}
-
 /* about the club section */
 
 #the-club {
@@ -145,14 +141,15 @@ main {
 #standings {
     margin-bottom: 20px;
     border-style: solid;
-    border-color: #fd0909;
+    border-color: #fd09098a;
     border-width: 15px;
-    background-color: #fd09098a
+    background-color: #fd090978
 }
 
 hr {
     border-top: 5px solid #ffffff;
     margin: 10px 0;
+    font-family: ;
 }
 
 ul {
@@ -211,6 +208,7 @@ th {
     padding: 20%;
 }
 
+
 /* media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
 
@@ -236,6 +234,10 @@ th {
     #squad-text {
         width: 400px;
         left: 100px;
+    }
+
+    .heading1 {
+        font-size: 200%;
     }
 }
 

@@ -35,9 +35,10 @@ header a {
     color: #ff2728;
 }
 
-h1 {
+header h1, h6 {
     font-family: 'Anton SC', sans-serif;
     letter-spacing: 2px;
+    height: 52px;
 }
 
 h2,
@@ -88,16 +89,19 @@ nav {
 }
 
 #logo {
-    font-size: 250%;
+    font-size: 130%;
     line-height: 75px;
     margin: 0 0.5rem;
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-end;
 }
 
 /* Main */
 main {
     /* Make main element take up any left over space */
     flex: 1 0 auto;
-    margin-top: 90px;
+    margin-top: 60px;
     background-color: #000000;
 }
 

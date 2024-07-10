@@ -27,6 +27,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
+    z-index: 99;
 }
 
 header a {
@@ -43,7 +44,7 @@ h2,
 h3 {
     font-family: 'Wittgenstein', serif;
     text-transform: uppercase;
-    color: #010101;
+    color: #ffffff;
 }
 
 #menu {
@@ -109,7 +110,7 @@ main {
 }
 
 #squad-text {
-    background-color: rgba(167, 123, 3, 0.9);
+    background-color: rgba(219, 4, 40, 50%);
     font-size: 120%;
     position: absolute;
     bottom: 50px;
@@ -139,11 +140,15 @@ main {
 #results,
 #standings {
     margin-bottom: 20px;
+    border-style: solid;
+    border-color: #fd0909;
+    border-width: 15px;
+    background-color: #fd09098a
 }
 
 hr {
-    border-top: 5px solid #000000;
-    margin: 5px 0;
+    border-top: 5px solid #ffffff;
+    margin: 10px 0;
 }
 
 ul {
@@ -192,7 +197,7 @@ th {
     display: flex;
     justify-content: space-around;
     padding: 10px 0;
-    background-color: #ff2728;
+    background-color: #d22727;
     list-style-type: none;
 }
 

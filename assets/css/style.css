@@ -35,7 +35,8 @@ header a {
     color: #ff2728;
 }
 
-header h1, h6 {
+header h1,
+h6 {
     font-family: 'Anton SC', sans-serif;
     letter-spacing: 2px;
     height: 52px;
@@ -135,7 +136,7 @@ main {
     text-decoration: underline;
 }
 
-#about,
+/* #about,
 #fixtures,
 #results,
 #standings {
@@ -143,13 +144,37 @@ main {
     border-style: solid;
     border-color: #fd09098a;
     border-width: 15px;
-    background-color: #fd090978
+    background-color: #fd090978;
+    font-family: 'roboto', sans-serif;
+    color: #ffffff;
+    text-transform: uppercase;
+} */
+
+
+#about p {
+    font-family: 'roboto', sans-serif;
+    letter-spacing: 2px;
+}
+
+.bg {
+    background-color: lightgreen;
+}
+
+
+.team-badge {
+    height: 50vw;
+    width: 50vw;
+    border-radius: 50%;
+    max-width: 100px;
+    max-height: 100px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 hr {
     border-top: 5px solid #ffffff;
     margin: 10px 0;
-    font-family: ;
+    /* font-family:; */
 }
 
 ul {
@@ -165,16 +190,16 @@ ul {
 }
 
 table {
-    font-family: 'roboto'serif;
+    font-family: 'roboto', sans-serif;
     border-collapse: collapse;
     width: 50%;
 }
 
 td,
 th {
-    border: 1px solid #000000;
+    border: 5px solid #000000;
     text-align: center;
-    padding: 10px;
+    padding: 5px;
 }
 
 #badge-bg {

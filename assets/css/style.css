@@ -266,6 +266,18 @@ th {
     padding: 20%;
 }
 
+/* media query: large or landscape phones (576px and up) */
+@media screen and (min-width: 576px) {
+    img {
+        display: block;
+    }
+
+    #pitch, #charity, #pre-season, #merch {
+        column-count: 2;
+        column-gap: 0;
+    }
+
+}
 
 /* media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {

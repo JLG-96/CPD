@@ -269,10 +269,7 @@ th {
 /* media query: large or landscape phones (576px and up) */
 @media screen and (min-width: 576px) {
 
-    #pitch,
-    #charity,
-    #pre-season,
-    #merch {
+   #photos {
         column-count: 2;
         column-gap: 0;
     }
@@ -314,10 +311,7 @@ th {
     }
 
     /* news */
-    #pitch,
-    #charity,
-    #pre-season,
-    #merch {
+   #photos {
         column-count: 3;
     }
 
@@ -338,10 +332,7 @@ th {
     }
 
     /* news */
-    #pitch,
-    #charity,
-    #pre-season,
-    #merch {
+   #photos {
         column-count: 4;
     }
 
@@ -384,4 +375,12 @@ th {
         font-size: 16px;
         padding: 16px 32px;
       }
+}
+
+/* laptops and smaller (992px and down) */
+@media screen and (max-width: 992px) { 
+    .middle {
+        display: none;
+    }
+
 }

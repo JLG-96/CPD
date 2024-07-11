@@ -136,7 +136,7 @@ main {
     text-decoration: underline;
 }
 
-/* #about,
+#about,
 #fixtures,
 #results,
 #standings {
@@ -148,12 +148,19 @@ main {
     font-family: 'roboto', sans-serif;
     color: #ffffff;
     text-transform: uppercase;
-} */
+}
 
 
 #about p {
     font-family: 'roboto', sans-serif;
     letter-spacing: 2px;
+}
+
+.team-badge, h3 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 
 .bg {
@@ -270,6 +277,12 @@ th {
 @media screen and (min-width: 992px) {
     #menu a:hover {
         border-bottom: 3px solid #ffffff;
+    }
 
+    #fixtures {
+        padding: 0 10px;
+        display: flex;
+        align-items: center !important;
+        justify-content: center !important;
     }
 }

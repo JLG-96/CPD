@@ -239,6 +239,17 @@ th {
     justify-content: center;
 }
 
+/* news */
+#photos img {
+    width: 100%;
+    line-height: 2em;
+}
+
+#photos {
+    line-height: 0;
+}
+
+
 /* Footer */
 #social-media {
     text-align: center;

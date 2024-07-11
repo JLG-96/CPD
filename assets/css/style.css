@@ -250,46 +250,6 @@ th {
     line-height: 0;
 }
 
-.container {
-    position: relative;
-    width: 50%;
-  }
-  
-  .image {
-    opacity: 1;
-    display: block;
-    width: 100%;
-    height: auto;
-    transition: .5s ease;
-    backface-visibility: hidden;
-  }
-  
-  .middle {
-    transition: .5s ease;
-    opacity: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    text-align: center;
-  }
-  
-  .container:hover .image {
-    opacity: 0.3;
-  }
-  
-  .container:hover .middle {
-    opacity: 1;
-  }
-  
-  .text {
-    background-color: #04AA6D;
-    color: white;
-    font-size: 16px;
-    padding: 16px 32px;
-  }
-
 /* Footer */
 #social-media {
     text-align: center;
@@ -388,41 +348,40 @@ th {
     .container {
         position: relative;
         width: 50%;
-    }
-
-    .container-image {
+      }
+      
+      .image {
         opacity: 1;
         display: block;
         width: 100%;
         height: auto;
         transition: .5s ease;
         backface-visibility: hidden;
-    }
-
-    .middle {
-            transition: .5s ease;
-            opacity: 0;
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            -ms-transform: translate(-50%, -50%);
-            text-align: center;
-          
-    }
-    
-    .container:hover .container-image{
+      }
+      
+      .middle {
+        transition: .5s ease;
+        opacity: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        text-align: center;
+      }
+      
+      .container:hover .image {
         opacity: 0.3;
-    }
-
-    .container:hover .middle {
+      }
+      
+      .container:hover .middle {
         opacity: 1;
-    }
-
-    .pitch-text, .charity-text, .pre-season-text, .merch-text {
-        background-color: #04AA6D;
+      }
+      
+      .text {
+        background-color: #fd090978;
         color: white;
         font-size: 16px;
         padding: 16px 32px;
-    }
+      }
 }

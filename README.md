@@ -1,97 +1,123 @@
-Love Running
-In this section, you will include one or two paragraphs providing an overview of your project. Essentially, this part is your sales pitch. At this stage, you should have a name for your project so use it! Don’t introduce the project as a Portfolio project for the diploma. In this section, describe what the project hopes to accomplish, who it is intended to target and how it will be useful to the target audience.
+# CPD Yr Wyddgrug
+CPD Yr Wyddgrug are a newly formed club within the small market town of _Mold_ (Yr Wyddgrug in Welsh) located in North Wales. This site hopes to help keep the fan base of the club up to date with upcoming fixtures, recent results as well as the current league standing. 
+As it is a newly formed club, this site also hopes to help broaden the landscapes of the clubs following and reach people outside the town of _Mold_. This site will provide updates on recent news events conducted by the club and also offer people the chance to buy club merchandise.
+![Screenshot showing the responsiveness of the site on a varierty of different devices (laptop, tablet, monitor and mobile).](image-14.png)
 
-For example; Love Running is a site that hopes to help keep people motivated to meet up for runs on a regular basis in Dublin, Ireland. The site will be targeted toward runners who are looking for a way to socialise and keep themselves fit. Love Running will be useful for runners to see exactly when and where they should be to join the running club.
+## Features
+- **Navigation Bar**
+    - The navigation bar is featured on all 3 pages of the site. It is styled with the home colours of the club. The navigation bar is fixed to the top of the page and is fully responsive. It includes links to the _Logo_, _Home_, _News_ and _Get in touch_ page. It is identical in each page to allow for easy navigation between pages.
+    - This section of the site will allow any user to navigate between all 3 pages with ease on any device. The design will mean the user can navigate without the use of the 'back' button, which will hopefully improve UX.
+    ![Screenshot of the navigation bar on a laptop or larger.](image.png)
+    ![Screenshot of the navigation bar on a device smaller than a laptop once the menu button has been clicked.](image-1.png)
 
-Responsice Mockup
+- **The landing page image**
+    - The landing page is a team photo in the clubs home colours to make it very clear to the user exactly whos website they are on.
+    ![Screenshot of the landing page image which shows a team photo in the home colours of the club (red and black)](image-2.png)
 
-Features
-In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+- **About the club section**
+    - As this is a newly formed club (only 1 year old) this section is designed to give the user a brief introduction to the club and provide information on how this all started. 
+    - Additionally, this section provides the user with a quick overview of how the club got on within their first year of existence. 
+    ![Screenshot showing the about section of the site](image-3.png)
 
-Existing Features
-Navigation Bar
+- **Fixtures section**
+    - This part of the site is to show the user the next 3 fixtures (by using the opposition badge) for CPD Yr Wyddgrug. 
+    - It informs the user of the date of the fixture and whether the game will be played at home or away.
+    - This section will be updated to keep the user informed of the upcoming fixtures.
+    ![Screenshot showing the next 3 fixtures for CPD Yr Wyddgrug, location and date.](image-4.png) 
+    
+- **Recent Results section**
+    - This section allows the user to very easily see the last 3 results for CPD Yr Wyddgrug.
+    - It shows the date the game took place and the score. With the use of red highlight (for a defeat) and green highlight (for victory) it demonstrates clearly how well CPD Yr Wyddgrug got on in that game.
+    - This section will also be updated as more recent results come in.
+    ![Screenshot showing the last 3 results for CPD Yr Wyddgrug, showing the date, fixture and result.](image-5.png)
 
-Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Sign Up page and is identical in each page to allow for easy navigation.
-This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
-Nav Bar
+- **Standings section**
+    - This section allows the user to see how CPD Yr Wyddgrug are performing in comparison with the rest of the league.
+    - It demonstrates their league position (highlighted in yellow) and the amount of points accumulted throughout the season so far as well as the teams above them in the league.
+    - This section will be updated as the new season starts. 
+    - This section will be updated to provide the user with more information which can be used to better compare the progress of CPD Yr Wyddgrug with its rvials throughout the season. Information to be included will be;
+        - More teams on the table
+        - Number of games played
+        - Number of Wins, Draws and Losses
+        - Number of goals Scored or Conceded
+    ![screenshot showing the standings of the current finished table, with CPD Yr Wyddgrug in fourth. It shows the teams above them and the number of points for all 4 teams.](image-6.png)
+    
+- **Bottom of page and footer**
+    - The bottom of the page shows the badge of CPD Yr Wyddgrug.
+    - The footer section includes links to the clubs social media sites. The links open in a new tab to allow for easy navigation to the user. 
+    - The footer is valuable as it encourages the user to visit the clubs social media platforms. This is built with the sites original intention to help improve the following of the club.
+    ![Screenshot showing the badge of CPD Yr Wyddgrug and a footer which shows the socials the club has.](image-7.png)
 
-The landing page image
+- **News** 
+    - The news section is built to allow the user to see what the club has been doing lately. 
+    - It also allows the user to see examples of merchandise that are available to buy.
+    ![Screenshot showing members of the club getting together to build their new home.](image-8.png)
+    ![Screenshot of all the players that were involved in a recent charity game to help raise money for Cancer Research.](image-9.png)
+    ![Screenshot showing members of the clubs recent running activity during a busy pre-season period.](image-10.png)
+    ![Screenshot showing examples of merchandise available to buy.](image-11.png)
 
-The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to.
-This section introduces the user to Love Running with an eye catching animation to grab their attention
-Landing Page
+- **Get In Touch**
+    - This section will allow the user to get in touch with the club. The form will take basic information off the user and encourage the user to leave a message.
+    - The message from the user should either be to enquire about merchandise or a to arrange a friendly game. However, it is not just restricted to this and the user could leave any message they wish. The club can then respond to the message by getting in touch with the user directly. 
+    ![Screenshot showing a form for the user to complete.](image-12.png)
 
-Club Ethos Section
+- **Features left to implement**
+    - A page which allow users to make contributions to Cancer Reasearch UK. This is a charity close the club and one that the club as raised over £1000 for recently. It would like to offer the opportunity for donations from users.
+    - A highlights section for the website, which would allow user to watch clips from recent games. Including goals, saves, phases of play and post-match interviews.
 
-The club ethos section will allow the user to see the benefits of joining the Love Running meetups, as well as the benefits of running overall.
-This user will see the value of signing up for the Love Running meetups. This should encourage the user to consider running as their form of exercise.
-Club Ethos
+*The code institues **Love Running** project helped provide; the main part of the structure for the website, the footer, navigation bar, formatting of the pictures within the "News" page and the form on the "Get In Touch! page.*
 
-Meetup Times section
 
-This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers.
-This section will be updated as these times change to keep the user up to date.
-Meetup Times
 
-The Footer
+## Testing
+The website has been sufficiently tested. The websites links within the navigation bar and footer have been tested and work. The website has shown to be responsive on different devices and the form on the "Get In Touch!" page works (will not submit unless all fields correctly filled). 
+- The above has been tested on the following:
+    - Chrome and Edge on PC
+    - Safari on Mobile and tablet
 
-The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user.
-The footer is valuable to the user as it encourages them to keep connected via social media
-Footer
+- The website looks good on the different devices and browsers with the responsiveness styling working as intended.
+- Getting the rival club badges to **not** overfill it's element section when using smaller devices was difficult. However, with the use of the *code institute* programme I was able to apply the correct styling so that it fits nicely in a column.
+![Screenshot of fixture list fitting in columns for smaller screens](image-13.png)
 
-Gallery
+- Getting the hover element to show different text depending on the photo that was clicked proved to be difficult, however, with the implementation of several different *div* elements, the help of the *code institute* programme and *W3Schools* this was able to be achieved. 
 
-The gallery will provide the user with supporting images to see what the meet ups look like.
-This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together.
-Gallery
+- On the landing page, there was originally a textbox inlcuding information "Home: Gwernymyndd Village Hall". However, it was a struggle to come to a distinct conclusion on colouring that didn't contrast or look out of place so it was decided best, to be removed fully. This could be revisited and reapplied under a new update.
 
-The Sign Up Page
 
-This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address.
-Sign Up
+#### Validator Testing
+- HTML
+    - No errors were returned when passing each page through the official W3C validatior (https://validator.w3.org/).
 
-For some/all of your features, you may choose to reference the specific project files that implement them.
+- CSS
+    - No errors were discovered when passing through the official CSS validator (https://jigsaw.w3.org/css-validator/).
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+#### Unfixed bugs
+- Additionally, on screen sizes 993 - 1150px the hover comments on the "Pre-season" section of images are squashed and become unreadable. On larger devices it can be read as intended. 
+    - This bug has been left for the mean time as the main purpose of this section was for use of largest devices, and it works, I can't appear to implement an effective change which corrects the bug without having an unfortunate knock on effect on the design on it's intended device size.
+- On the "News" section, black spacing appears between the images (576px and more) and this does suit the overall 'feel' of the website. It would be nice if this empty space could be filled with information headings or the club logo, depending on screen-size. Will be looked to be implemented in future update. 
+    - This bug has come about becuase of the need to segrogate the different sections for the images for the hover text to work. It has been decided that the hover functionality for larger devices is important in order for the viewer to know what *"news"* is being shown in the imagery. The black spacing is an unfortunate but accepted bug, and a new-way to showcase the imagery can be looked at in future to address this issue. 
 
-Features Left to Implement
-Another feature idea
-Testing
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+## Deployment 
+- The site was deplyed to GitHub pages. It has been deployed using the following steps:
+    - In the GitHub repository (named = *CPD*) scroll down until you come across deplyments on the right hand side.
+    - Click the github-pages link. 
+    - Click the link within the github-pages box.
+    - This will open a separate tab with the successfully deployed site. 
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+The live link can be found here; https://jlg-96.github.io/CPD/
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+## Credits
+- Within the website, the code institue helped provide the coding for:
+    - The navigation bar 
+    - The footer
+    - The form
+    - How to make the photos in the "News" section responsive
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+- W3Schools have helped throughout the project by providing information on elements and how to format sections. Most importantly provided the code to help with the hover aspect on the images on the "News" page to reveal text. 
+    - *The specific page that helped can be found here; https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_opacity .*
 
-Validator Testing
-HTML
-No errors were returned when passing through the official W3C validator
-CSS
-No errors were found when passing through the official (Jigsaw) validator
-Unfixed Bugs
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed.
+- Icons used within the site have been taken from https://fontawesome.com/
 
-Deployment
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub)
+- The information for the fixtures and results section has been taken from my personal **Spond** account (https://www.spond.com/). 
 
-The site was deployed to GitHub pages. The steps to deploy are as follows:
-In the GitHub repository, navigate to the Settings tab
-From the source section drop-down menu, select the Master Branch
-Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
-The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html
-
-Credits
-In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism.
-
-You can break the credits section up into Content and Media, depending on what you have included in your project.
-
-Content
-The text for the Home page was taken from Wikipedia Article A
-Instructions on how to implement form validation on the Sign Up page was taken from Specific YouTube Tutorial
-The icons in the footer were taken from Font Awesome
-Media
-The photos used on the home and sign up page are from This Open Source site
-The images used for the gallery page were taken from this other open source site
-Congratulations on completing your Readme, you have made another big stride in the direction of being a developer!
+- The badges used on the homepage were taken from google images.

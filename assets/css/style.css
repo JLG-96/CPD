@@ -385,6 +385,15 @@ th {
     #getintouch-form {
         max-width: 500px;
     }
+
+    #other:hover, .text-input:hover {
+        border-color: #d22727;
+    }
+
+    .send-button:hover {
+        background-color: #fafafa;
+        color: #d22727;
+    }
 }
 
 

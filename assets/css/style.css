@@ -377,6 +377,14 @@ th {
         column-count: 4;
     }
 
+    /* get in touch */
+    #getintouch {
+        background-position: center;
+    }
+
+    #getintouch-form {
+        max-width: 500px;
+    }
 }
 
 

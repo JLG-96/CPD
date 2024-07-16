@@ -197,6 +197,10 @@ h3 {
     margin-right: auto;
 }
 
+.hidden-heading {
+    display: none;
+}
+
 hr {
     border-top: 5px solid #ffffff;
     margin: 10px 0;

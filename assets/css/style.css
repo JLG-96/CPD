@@ -110,7 +110,7 @@ nav {
 main {
     /* Make main element take up any left over space */
     flex: 1 0 auto;
-    margin-top: 70px;
+    margin-top: 80px;
     background-color: #000000;
 }
 
@@ -379,7 +379,7 @@ th {
       
 }
 
-/* laptops and smaller (992px and down) */
+/* largest screens and smaller (992px and down) */
 @media screen and (max-width: 992px) {
 
     
@@ -387,4 +387,11 @@ th {
         display: none;
     }
 
+}
+/* laptops and smaller (768px and down) */
+@media screen and (max-width: 768px) {
+main {
+    margin-top: 70px;
+
+}
 }

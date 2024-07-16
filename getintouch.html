@@ -20,21 +20,69 @@
     <header>
         <a href="index.html" id="logo">
             <h1 class="heading1">CPD Yr Wyddgrug</h1>
-            <h6 class="heading2">EST: 2023</h6>
+            <h6 class="heading2">EST:2023</h6>
         </a>
         <input type="checkbox" id="dropdown-box" name="dropdown-box">
         <label for="dropdown-box" class="dropdown-box-label"><i class="fa-solid fa-bars"></i></label>
         <nav>
             <ul id="menu">
-                <li><a href="index.html" class="live">Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="news.html">News</a></li>
-                <li><a href="getintouch.html">Get in touch</a></li>
+                <li><a href="getintouch.html" class="live">Get in touch</a></li>
             </ul>
         </nav>
     </header>
 
     <!-- Main content -->
-    <main>Main Content</main>
+    <main>
+        <section id="signup">
+            <form id="signup-form" method="post" action="https://formdump.codeinstitute.net">
+                <h2>Get in touch!</h2>
+                <label for="first-name">First Name</label>
+                <input type="text" name="first_name" id="first-name" class="text-input" required>
+                <br>
+                <label for="last-name">Last Name</label>
+                <input type="text" name="last_name" id="last-name" class="text-input" required>
+                <br>
+                <label for="email-address">Email Address</label>
+                <input type="email" name="email_address" id="email-address" class="text-input" required>
+                <br>
+                <label for="message">Leave your message below if you'd like to enquire about merchandise or arrange a
+                    friendly and we will get back in touch.</label>
+                <textarea name="message" id="message" rows="4" cols="50" required>Leave your message here...</textarea>
+                <br>
+                <div class="radio-buttons">
+                    <h4>How did you hear about us?</h4>
+                    <div>
+                        <label for="X">X</label>
+                        <input type="radio" name="heard" id="X" value="X" required checked>
+                    </div>
+                    <div>
+                        <label for="instagram">Instagram</label>
+                        <input type="radio" name="heard" id="instagram" value="instagram" required>
+                    </div>
+                    <div>
+                        <label for="facebook">Facebook</label>
+                        <input type="radio" name="heard" id="facebook" value="facebook" required>
+                    </div>
+                    <div>
+                        <label for="friends">Friends</label>
+                        <input type="radio" name="heard" id="friends" value="friends" required>
+                    </div>
+                    <div>
+                        <label for="family">Family</label>
+                        <input type="radio" name="heard" id="family" value="family" required>
+                    </div>
+                    <div>
+                        <label for="other">Other</label>
+                        <input type="text" name="heard" id="other" value="Enter here..." required>
+                    </div>
+                </div>
+                <button type="submit" class="send-button">Get in touch!</button>
+            </form>
+        </section>
+
+    </main>
 
     <!-- Footer -->
     <footer>

@@ -1,60 +1,59 @@
 # CPD Yr Wyddgrug
 CPD Yr Wyddgrug are a newly formed club within the small market town of _Mold_ (Yr Wyddgrug in Welsh) located in North Wales. This site hopes to help keep the fan base of the club up to date with upcoming fixtures, recent results as well as the current league standing. 
 As it is a newly formed club, this site also hopes to help broaden the landscapes of the clubs following and reach people outside the town of _Mold_. This site will provide updates on recent news events conducted by the club and also offer people the chance to buy club merchandise.
-![Screenshot showing the responsiveness of the site on a varierty of different devices (laptop, tablet, monitor and mobile).](image-14.png)
+![Screenshot showing the responsiveness of the site on a varierty of different devices (laptop, tablet, monitor and mobile).](assets/screenshots/image-14.png)
 
 ## Features
 - **Navigation Bar**
     - The navigation bar is featured on all 3 pages of the site. It is styled with the home colours of the club. The navigation bar is fixed to the top of the page and is fully responsive. It includes links to the _Logo_, _Home_, _News_ and _Get in touch_ page. It is identical in each page to allow for easy navigation between pages.
     - This section of the site will allow any user to navigate between all 3 pages with ease on any device. The design will mean the user can navigate without the use of the 'back' button, which will hopefully improve UX.
-    ![Screenshot of the navigation bar on a laptop or larger.](image.png)
-    ![Screenshot of the navigation bar on a device smaller than a laptop once the menu button has been clicked.](image-1.png)
+    ![Screenshot of the navigation bar on a laptop or larger.](assets/screenshots/image.png)
+    ![Screenshot of the navigation bar on a device smaller than a laptop once the menu button has been clicked.](assets/screenshots/image-1.png)
 
 - **The landing page image**
     - The landing page is a team photo in the clubs home colours to make it very clear to the user exactly whos website they are on.
-    ![Screenshot of the landing page image which shows a team photo in the home colours of the club (red and black)](image-2.png)
+    ![Screenshot of the landing page image which shows a team photo in the home colours of the club (red and black)](assets/screenshots/image-2.png)
 
 - **About the club section**
     - As this is a newly formed club (only 1 year old) this section is designed to give the user a brief introduction to the club and provide information on how this all started. 
     - Additionally, this section provides the user with a quick overview of how the club got on within their first year of existence. 
-    ![Screenshot showing the about section of the site](image-15.png)
+    ![Screenshot showing the about section of the site](assets/screenshots/image-15.png)
 
 - **Fixtures section**
     - This part of the site is to show the user the next 3 fixtures (by using the opposition badge) for CPD Yr Wyddgrug. 
     - It informs the user of the date of the fixture and whether the game will be played at home or away.
     - This section will be updated to keep the user informed of the upcoming fixtures.
-    ![Screenshot showing the next 3 fixtures for CPD Yr Wyddgrug, location and date.](image-4.png) 
+    ![Screenshot showing the next 3 fixtures for CPD Yr Wyddgrug, location and date.](assets/screenshots/image-4.png)
     
 - **Recent Results section**
     - This section allows the user to very easily see the last 3 results for CPD Yr Wyddgrug.
     - It shows the date the game took place and the score. With the use of red highlight (for a defeat) and green highlight (for victory) it demonstrates clearly how well CPD Yr Wyddgrug got on in that game.
     - This section will also be updated as more recent results come in.
-    ![Screenshot showing the last 3 results for CPD Yr Wyddgrug, showing the date, fixture and result.](image-5.png)
+    ![Screenshot showing the last 3 results for CPD Yr Wyddgrug, showing the date, fixture and result.](assets/screenshots/image-16.png)
 
 - **Standings section**
     - This section allows the user to see how CPD Yr Wyddgrug are performing in comparison with the rest of the league.
     - It demonstrates their league position (highlighted in yellow) and the amount of points accumulted throughout the season so far as well as the teams above them in the league.
     - This section will be updated as the new season starts. 
-    ![screenshot showing the standings of the current finished table, with CPD Yr Wyddgrug in fourth. It shows the teams above them and the number of points for all 4 teams.](image-6.png)
+    ![screenshot showing the standings of the current finished table, with CPD Yr Wyddgrug in fourth. It shows the teams above them and the number of points for all 4 teams.](assets/screenshots/image-6.png)
     
 - **Bottom of page and footer**
     - The bottom of the page shows the badge of CPD Yr Wyddgrug.
     - The footer section includes links to the clubs social media sites. The links open in a new tab to allow for easy navigation to the user. 
     - The footer is valuable as it encourages the user to visit the clubs social media platforms. This is built with the sites original intention to help improve the following of the club.
-    ![Screenshot showing the badge of CPD Yr Wyddgrug and a footer which shows the socials the club has.](image-7.png)
-
+    ![Screenshot showing the badge of CPD Yr Wyddgrug and a footer which shows the socials the club has.](assets/screenshots/image-7.png)
 - **News** 
     - The news section is built to allow the user to see what the club has been doing lately. 
     - It also allows the user to see examples of merchandise that are available to buy.
-    ![Screenshot showing members of the club getting together to build their new home.](image-8.png)
-    ![Screenshot of all the players that were involved in a recent charity game to help raise money for Cancer Research.](image-9.png)
-    ![Screenshot showing members of the clubs recent running activity during a busy pre-season period.](image-10.png)
-    ![Screenshot showing examples of merchandise available to buy.](image-11.png)
+    ![Screenshot showing members of the club getting together to build their new home.](assets/screenshots/image-8.png)
+    ![Screenshot of all the players that were involved in a recent charity game to help raise money for Cancer Research.](assets/screenshots/image-9.png)
+    ![Screenshot showing members of the clubs recent running activity during a busy pre-season period.](assets/screenshots/image-10.png)
+    ![Screenshot showing examples of merchandise available to buy.](assets/screenshots/image-11.png)
 
 - **Get In Touch**
     - This section will allow the user to get in touch with the club. The form will take basic information off the user and encourage the user to leave a message.
     - The message from the user should either be to enquire about merchandise or a to arrange a friendly game. However, it is not just restricted to this and the user could leave any message they wish. The club can then respond to the message by getting in touch with the user directly. 
-    ![Screenshot showing a form for the user to complete.](image-12.png)
+    ![Screenshot showing a form for the user to complete.](assets/screenshots/image-17.png)
 
 - **Features left to implement**
     - A page which allow users to make contributions to Cancer Reasearch UK. This is a charity that is close to the club and one that the club has raised over £1000 for recently, in a variety of ways - most recently a charity 5-a-side tournament. It would like to offer the opportunity for users to donate at any point.
@@ -77,7 +76,7 @@ The website has been sufficiently tested. The websites links within the navigati
 
 - The website looks good on the different devices and browsers with the responsiveness styling working as intended.
 - Getting the rival club badges to **not** overfill it's element section when using smaller devices was difficult. However, with the use of the *code institute* programme I was able to apply the correct styling so that it fits nicely in a column.
-![Screenshot of fixture list fitting in columns for smaller screens](image-13.png)
+![Screenshot of fixture list fitting in columns for smaller screens](assets/screenshots/image-13.png)
 
 - Getting the hover element to show different text depending on the photo that was clicked proved to be difficult, however, with the implementation of several different *div* elements, the help of the *code institute* programme and *W3Schools* this was able to be achieved. 
 

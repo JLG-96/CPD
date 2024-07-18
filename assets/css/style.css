@@ -165,6 +165,11 @@ main {
     padding: 0 20px 20px 20px;
 }
 
+#results {
+    background-color: #619589;
+    border-color: #0c5141;
+}
+
 .team-badge,
 h3 {
     display: flex;
@@ -308,6 +313,14 @@ th {
     font-weight: bold;
     margin-top: 20px;
     padding: 15px 32px;
+}
+
+#getintouch h2 {
+    font-size: 200%;
+}
+
+#getintouch .send-button, label, h4 {
+    font-size: 150%;
 }
 
 /* Footer */

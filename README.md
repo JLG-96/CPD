@@ -17,7 +17,7 @@ As it is a newly formed club, this site also hopes to help broaden the landscape
 - **About the club section**
     - As this is a newly formed club (only 1 year old) this section is designed to give the user a brief introduction to the club and provide information on how this all started. 
     - Additionally, this section provides the user with a quick overview of how the club got on within their first year of existence. 
-    ![Screenshot showing the about section of the site](image-3.png)
+    ![Screenshot showing the about section of the site](image-15.png)
 
 - **Fixtures section**
     - This part of the site is to show the user the next 3 fixtures (by using the opposition badge) for CPD Yr Wyddgrug. 
@@ -35,11 +35,6 @@ As it is a newly formed club, this site also hopes to help broaden the landscape
     - This section allows the user to see how CPD Yr Wyddgrug are performing in comparison with the rest of the league.
     - It demonstrates their league position (highlighted in yellow) and the amount of points accumulted throughout the season so far as well as the teams above them in the league.
     - This section will be updated as the new season starts. 
-    - This section will be updated to provide the user with more information which can be used to better compare the progress of CPD Yr Wyddgrug with its rvials throughout the season. Information to be included will be;
-        - More teams on the table
-        - Number of games played
-        - Number of Wins, Draws and Losses
-        - Number of goals Scored or Conceded
     ![screenshot showing the standings of the current finished table, with CPD Yr Wyddgrug in fourth. It shows the teams above them and the number of points for all 4 teams.](image-6.png)
     
 - **Bottom of page and footer**
@@ -62,8 +57,13 @@ As it is a newly formed club, this site also hopes to help broaden the landscape
     ![Screenshot showing a form for the user to complete.](image-12.png)
 
 - **Features left to implement**
-    - A page which allow users to make contributions to Cancer Reasearch UK. This is a charity close the club and one that the club as raised over £1000 for recently. It would like to offer the opportunity for donations from users.
-    - A highlights section for the website, which would allow user to watch clips from recent games. Including goals, saves, phases of play and post-match interviews.
+    - A page which allow users to make contributions to Cancer Reasearch UK. This is a charity that is close to the club and one that the club has raised over £1000 for recently, in a variety of ways - most recently a charity 5-a-side tournament. It would like to offer the opportunity for users to donate at any point.
+    - A highlights section for the website, which would allow users to watch clips from recent games. Including goals, saves, phases of play and post-match interviews.
+    - The fixtures section will be updated to provide the user with more information which can be used to better compare the progress of CPD Yr Wyddgrug with its rvials throughout the season. Information that could be included could be;
+        - More teams on the table
+        - Number of games played
+        - Number of Wins, Draws and Losses
+        - Number of goals Scored or Conceded
 
 *The code institues **Love Running** project helped provide; the main part of the structure for the website, the footer, navigation bar, formatting of the pictures within the "News" page and the form on the "Get In Touch! page.*
 
@@ -81,7 +81,7 @@ The website has been sufficiently tested. The websites links within the navigati
 
 - Getting the hover element to show different text depending on the photo that was clicked proved to be difficult, however, with the implementation of several different *div* elements, the help of the *code institute* programme and *W3Schools* this was able to be achieved. 
 
-- On the landing page, there was originally a textbox inlcuding information "Home: Gwernymyndd Village Hall". However, it was a struggle to come to a distinct conclusion on colouring that didn't contrast or look out of place so it was decided best, to be removed fully. This could be revisited and reapplied under a new update.
+- On the landing page, there was originally a textbox inlcuding information "Home: Gwernymyndd Village Hall". However, it was a struggle to come to a distinct conclusion on colouring that didn't contrast or look out of place on top of the team photo, so it was decided best, for now, to be removed fully. This could be revisited and reapplied under a new update.
 
 
 #### Validator Testing
@@ -96,7 +96,7 @@ The website has been sufficiently tested. The websites links within the navigati
     - This bug has been left for the mean time as the main purpose of this section was for use of largest devices, and it works, I can't appear to implement an effective change which corrects the bug without having an unfortunate knock on effect on the design on it's intended device size.
 - On the "News" section, black spacing appears between the images (576px and more) and this does suit the overall 'feel' of the website. It would be nice if this empty space could be filled with information headings or the club logo, depending on screen-size. Will be looked to be implemented in future update. 
     - This bug has come about becuase of the need to segrogate the different sections for the images for the hover text to work. It has been decided that the hover functionality for larger devices is important in order for the viewer to know what *"news"* is being shown in the imagery. The black spacing is an unfortunate but accepted bug, and a new-way to showcase the imagery can be looked at in future to address this issue. 
-
+- In the "About" section, the 'br' between text is important as to not overwhelm the user. However, becuase of this and the amount of text there is it takes a lot of space on mobile and tablet devices. This is not a bug, per-say but more of a visual issue. This can be fixed in a future update by adding a "read more - read less" button, if it is deemed necessary. 
 ## Deployment 
 - The site was deplyed to GitHub pages. It has been deployed using the following steps:
     - In the GitHub repository (named = *CPD*) scroll down until you come across deplyments on the right hand side.
